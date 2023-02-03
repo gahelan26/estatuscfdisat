@@ -1,0 +1,21 @@
+{
+  "name": "gahelan/EstatusCfdiSat",
+  "description": "Libreria para validar el estatus de un CFDI ante el sat mediante su webservice tipo SOAP",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Gabriel Herrera Landa",
+      "email": "gaboherreralanda@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-dom": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  }
+}
